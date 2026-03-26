@@ -1,6 +1,6 @@
 # Ω Reproduction
 
-A minimal executable interface for testing structural collapse.
+Reproduce structural collapse in minutes.
 
 ---
 
