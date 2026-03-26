@@ -1,6 +1,12 @@
-# Ω Reproduction
+# Ω Reproduction (PJM)
 
 Reproduce structural collapse in minutes.
+
+---
+
+## What this is
+
+This repository reproduces the PJM result in the reproducibility package.
 
 ---
 
@@ -28,6 +34,18 @@ reproduce_omega_pjm.ipynb
 
 ---
 
+## Event definition (this implementation)
+
+event = 1 if (p95 / p_RTO) exceeds the 0.998 quantile of the full sample
+
+---
+
+## Ω (Omega)
+
+Ω = I × G
+
+---
+
 ## Apply to your system
 
 Replace:
@@ -39,18 +57,17 @@ Replace:
 Keep:
 
 - Ω = I × G  
-- event = Ω > q(0.995)  
 
 ---
 
 ## Notes
 
-This is a structural specification.
+This repository reproduces a specific implementation.
 
-Not a predictive model.  
-Not a domain-specific solution.  
+It is not a fixed cross-domain specification.
 
-It isolates a minimal condition under which collapse-related events concentrate.
+For a minimal, fixed interface across domains, see the Guide:
+https://zenodo.org/records/19199493  
 
 ---
 
