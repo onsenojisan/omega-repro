@@ -46,4 +46,4 @@ https://zenodo.org/records/19199493
 Reproducibility package:  
 https://zenodo.org/records/19159664
 
-Post reproduction-related content in this repository.
+Post reproduction-related questions or attempts in this repository.
