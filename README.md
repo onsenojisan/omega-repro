@@ -46,5 +46,7 @@ https://zenodo.org/records/19199493
 Reproducibility package:  
 https://zenodo.org/records/19159664
 
-Share results here (optional).
+Share results (optional):
+https://github.com/onsenojisan/omega-repro
+
 Even partial results are sufficient.
