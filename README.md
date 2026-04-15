@@ -46,7 +46,9 @@ https://zenodo.org/records/19199493
 Reproducibility package:  
 https://zenodo.org/records/19159664
 
-Share results (optional):
-https://github.com/onsenojisan/omega-repro
+Share results (optional): https://github.com/onsenojisan/omega-repro
 
 Even partial results are sufficient.
+
+Minimal report format:
+domain / data / definition of collapse / P(collapse | high Ω) / baseline P(collapse)
