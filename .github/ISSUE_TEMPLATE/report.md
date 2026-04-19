@@ -1,3 +1,8 @@
+---
+name: Reproduction report
+about: Submit your Ω reproduction result
+title: "[Report]"
+---
 Domain:
 
 Data:
