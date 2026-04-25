@@ -7,6 +7,7 @@ title: "[Report]"
 ## Quick report (one line is enough)
 
 Domain:
+
 Ratio ≈
 
 ---
