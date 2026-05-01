@@ -1,3 +1,11 @@
+## Bounty conditions
+$20 for the first valid report only.
+
+Requirements:
+- Must be from a fresh run (not preloaded output)
+- Include screenshot (showing execution) OR pasted output values
+- Incomplete or unverifiable reports are invalid
+
 ---
 name: Reproduction report
 about: Submit your Ω reproduction result
