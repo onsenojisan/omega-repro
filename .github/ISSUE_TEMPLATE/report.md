@@ -4,21 +4,18 @@ about: Submit your Ω reproduction result
 title: "[Report]"
 ---
 
-## Bounty conditions
-$20 for the first valid report only.
+## $20 bounty
 
-Requirements:
-- Must be from a fresh run (not preloaded output)
-- Include screenshot (showing execution) OR pasted output values
-- Incomplete or unverifiable reports are invalid
+First valid result only.
+Run and paste the result.
 
 ---
 
-## Quick report (one line is enough)
+## Quick report (copy & paste)
 
 Domain:
-
-Ratio ≈
+P(collapse | high Ω):
+Baseline:
 
 ---
 
