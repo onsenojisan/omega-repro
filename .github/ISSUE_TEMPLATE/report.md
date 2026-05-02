@@ -7,6 +7,7 @@ title: "[Report]"
 ## $20 bounty
 
 First valid result only.
+
 Run and paste the result.
 
 ---
@@ -14,7 +15,9 @@ Run and paste the result.
 ## Quick report (copy & paste)
 
 Domain:
+
 P(collapse | high Ω):
+
 Baseline:
 
 ---
