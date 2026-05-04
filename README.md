@@ -51,7 +51,5 @@ After running (30 sec):
 Report your result:
 https://github.com/onsenojisan/omega-repro/issues/new?template=report.md
 
-Even partial results are sufficient.
-
-Minimal report format:
-domain / data / definition of collapse / P(collapse | high Ω) / baseline P(collapse)
+Report (minimal):
+domain / data / collapse definition / P(collapse | high Ω) / baseline
