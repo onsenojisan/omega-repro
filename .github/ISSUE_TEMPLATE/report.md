@@ -4,14 +4,6 @@ about: Submit your Ω reproduction result
 title: "[Report]"
 ---
 
-## $20 bounty
-
-First valid result only.
-
-Run and paste the result.
-
----
-
 ## Quick report (copy & paste)
 
 Domain:
