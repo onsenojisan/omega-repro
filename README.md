@@ -46,12 +46,15 @@ event = 1 if ratio_95 ≥ q(0.998)
 
 ---
 
-## Notes
+## Ω Reference Guide
 
 This is a specific implementation.
 
 Guide (fixed cross-domain interface):  
 https://zenodo.org/records/19199493  
+
+Existing research terminology guide:  
+[docs/EXISTING_RESEARCH_CONNECTIONS_OMEGA.md](docs/EXISTING_RESEARCH_CONNECTIONS_OMEGA.md)
 
 Reproducibility package:  
 https://zenodo.org/records/19159664
