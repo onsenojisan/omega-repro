@@ -1,5 +1,7 @@
 # Ω Reproduction (PJM)
 
+[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/onsenojisan/omega-repro/blob/main/templates/omega_minimal_template/omega_minimal_template.ipynb)
+
 Reproduce structural collapse in minutes.
 
 ---

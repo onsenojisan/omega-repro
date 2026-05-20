@@ -1,5 +1,7 @@
 # Minimal Ω Structural Concentration Template
 
+[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/onsenojisan/omega-repro/blob/main/templates/omega_minimal_template/omega_minimal_template.ipynb)
+
 This is a tiny Google Colab template for testing whether independently defined binary events concentrate in high-Ω states.
 
 It is a structural concentration test, not a prediction model. Ω is computed only from the selected value column:
