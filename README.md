@@ -22,6 +22,14 @@ reproduce_omega_pjm.ipynb
 
 ---
 
+## Try Ω on your own data
+
+Use the [minimal template](templates/omega_minimal_template/) to upload a CSV and test whether independently defined binary events concentrate in high-Ω states. This is a structural concentration test, not prediction. Null results are valid.
+
+Links: [notebook](templates/omega_minimal_template/omega_minimal_template.ipynb) / [example_data.csv](templates/omega_minimal_template/example_data.csv)
+
+---
+
 ## Event definition
 
 ratio_95 = p95 / p_RTO  
