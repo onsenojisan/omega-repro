@@ -2,17 +2,21 @@
 
 [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/onsenojisan/omega-repro/blob/main/templates/omega_minimal_template/omega_minimal_template.ipynb)
 
-Reproduce structural collapse in minutes.
+Run first: no local setup. Opens the minimal Colab template with included example data.
+
+This repository tests whether independently defined binary events concentrate in high-Ω states under fixed ex-ante definitions. It is a reproducibility structure, not a prediction model.
 
 ---
 
-## What happens
+## Fastest runnable entry
 
-Collapse-related events (6 steps ahead) concentrate in extreme Ω states.
+1. Open the Colab notebook: [omega_minimal_template.ipynb](templates/omega_minimal_template/omega_minimal_template.ipynb)
+2. Run with the included example data
+3. Replace the CSV to try your own data
 
 ---
 
-## Quick Start
+## Reproduce the PJM example
 
 1. Download dataset  
 https://zenodo.org/records/19159664  
