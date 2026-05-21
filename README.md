@@ -4,7 +4,7 @@
 
 Run first: no local setup. Opens the minimal Colab template with included example data.
 
-This repository tests whether independently defined binary events concentrate in high-Ω states under fixed ex-ante definitions. It is a reproducibility structure, not a prediction model.
+This repository tests whether independently defined binary events structurally concentrate under fixed ex-ante definitions. It is a reproducibility structure, not a prediction model.
 
 ---
 
