@@ -2,6 +2,11 @@
 
 [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/onsenojisan/omega-repro/blob/main/templates/omega_minimal_template/omega_minimal_template.ipynb)
 
+Execution hub:
+https://onsenojisan.github.io/omega-library/
+
+Use the Ω Library hub to start with runnable notebooks, reproducibility materials, and CSV testing.
+
 Run first: no local setup. Opens the minimal Colab template with included example data.
 
 This repository tests whether independently defined binary events structurally concentrate under fixed ex-ante definitions. It is a reproducibility structure, not a prediction model.
