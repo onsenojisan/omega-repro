@@ -1,5 +1,7 @@
 # Agent Instructions
 
+> Maintenance note: This file contains repository operation guidance for AI/code agents. It is public for transparency, but it is not the ordinary reader path. Ordinary readers should start with `README.md` or the Ω Library execution hub.
+
 ## 1. Repository Purpose
 
 This repository supports reproducible Omega structural concentration tests.
