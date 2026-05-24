@@ -30,3 +30,5 @@ Null results are valid. A ratio near 1 means the event did not concentrate in hi
 - `omega_minimal_template.ipynb` - minimal Colab notebook
 - `example_data.csv` - tiny example dataset
 - `README.md` - this guide
+
+`example_data.csv` is the repository copy of the Zenodo sample file `omega_minimal_sample.csv`.
