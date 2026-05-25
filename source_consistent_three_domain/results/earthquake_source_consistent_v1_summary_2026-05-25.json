@@ -1,0 +1,105 @@
+{
+  "input": {
+    "raw_catalog_path": "data\\earthquake_japan_usgs_fixed_catalog_2020-01-01_2025-01-01.csv",
+    "raw_catalog_sha256": "b04406376de91adf6c4ce802d228d3311275b5055b7146471446918b1931f1c5",
+    "label_path": "data\\earthquake_japan_future_3h_event_labels_2020-01-01_2025-01-01.csv",
+    "label_sha256": "39278964dbfd5535a37b4ec5e4856a240f64686b8caa099cf52d1741738f350f",
+    "raw_rows": 4081,
+    "valid_evaluation_rows": 4062,
+    "actual_first_time": "2020-01-01T01:08:54.688Z",
+    "actual_last_time": "2024-12-31T16:28:31.896Z"
+  },
+  "definitions": {
+    "I": "rolling standard deviation of magnitude, window 20",
+    "G": "absolute magnitude change",
+    "Omega": "I * G",
+    "event_label": "fixed future 3-hour window contains later mag >= 5.5",
+    "high_omega": "Omega > q(0.99)",
+    "event_definition_independent_of_omega": true,
+    "temporal_shift": "circular row shifts",
+    "shuffle_runs": 100,
+    "shuffle_seed_start": 20260523
+  },
+  "original": {
+    "domain": "Earthquake Japan",
+    "condition": "original",
+    "shift": null,
+    "run": null,
+    "seed": null,
+    "n_rows": 4062,
+    "total_event_count": 99,
+    "baseline": 0.024372230428360415,
+    "q_omega_0.99": 0.8501531315554205,
+    "n_high": 41,
+    "n_event_high": 6,
+    "p_collapse_given_high_omega": 0.14634146341463414,
+    "ratio": 6.004434589800443
+  },
+  "temporal_shifts": [
+    {
+      "domain": "Earthquake Japan",
+      "condition": "circular_shift_+30",
+      "shift": 30,
+      "run": null,
+      "seed": null,
+      "n_rows": 4062,
+      "total_event_count": 99,
+      "baseline": 0.024372230428360415,
+      "q_omega_0.99": 0.8501531315554205,
+      "n_high": 41,
+      "n_event_high": 0,
+      "p_collapse_given_high_omega": 0.0,
+      "ratio": 0.0
+    },
+    {
+      "domain": "Earthquake Japan",
+      "condition": "circular_shift_+60",
+      "shift": 60,
+      "run": null,
+      "seed": null,
+      "n_rows": 4062,
+      "total_event_count": 99,
+      "baseline": 0.024372230428360415,
+      "q_omega_0.99": 0.8501531315554205,
+      "n_high": 41,
+      "n_event_high": 0,
+      "p_collapse_given_high_omega": 0.0,
+      "ratio": 0.0
+    },
+    {
+      "domain": "Earthquake Japan",
+      "condition": "circular_shift_+120",
+      "shift": 120,
+      "run": null,
+      "seed": null,
+      "n_rows": 4062,
+      "total_event_count": 99,
+      "baseline": 0.024372230428360415,
+      "q_omega_0.99": 0.8501531315554205,
+      "n_high": 41,
+      "n_event_high": 0,
+      "p_collapse_given_high_omega": 0.0,
+      "ratio": 0.0
+    }
+  ],
+  "shuffled_label_controls": {
+    "runs": 100,
+    "mean_p_collapse_given_high_omega": 0.02024390243902439,
+    "median_p_collapse_given_high_omega": 0.024390243902439025,
+    "min_p_collapse_given_high_omega": 0.0,
+    "max_p_collapse_given_high_omega": 0.07317073170731707,
+    "mean_ratio": 0.8306134515890613,
+    "median_ratio": 1.000739098300074,
+    "min_ratio": 0.0,
+    "max_ratio": 3.0022172949002215,
+    "mean_n_event_high": 0.83,
+    "min_n_event_high": 0,
+    "max_n_event_high": 3
+  },
+  "outputs": {
+    "original_csv": "results\\earthquake_source_consistent_v1_original_2026-05-25.csv",
+    "temporal_shifts_csv": "results\\earthquake_source_consistent_v1_temporal_shifts_2026-05-25.csv",
+    "shuffled_runs_csv": "results\\earthquake_source_consistent_v1_shuffled_runs_2026-05-25.csv",
+    "summary_json": "results\\earthquake_source_consistent_v1_summary_2026-05-25.json"
+  }
+}

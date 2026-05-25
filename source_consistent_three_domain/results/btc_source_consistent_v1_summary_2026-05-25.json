@@ -1,0 +1,102 @@
+{
+  "input": {
+    "file": "data\\btc_fixed_ohlc_2024-05-25_2026-05-25.csv",
+    "sha256": "d856e196192be7a6776d61b3d3008618ae588091578b68407507a5dcdd215adb",
+    "raw_rows": 730,
+    "raw_first_date": "2024-05-25",
+    "raw_last_date": "2026-05-25",
+    "valid_evaluation_rows": 710,
+    "valid_first_date": "2024-06-14",
+    "valid_last_date": "2026-05-25",
+    "q_event_0.95": 0.07337343979783484,
+    "q_omega_0.99": 0.002550863535200483,
+    "inclusive_calendar_days": 731,
+    "calendar_day_gaps": 1,
+    "missing_calendar_dates": [
+      "2026-05-24"
+    ],
+    "missing_calendar_date_caveat": "2026-05-24 is absent from the fixed snapshot and was not imputed or refetched."
+  },
+  "definitions": {
+    "return": "Close.pct_change()",
+    "I": "rolling standard deviation of return, window=20",
+    "G": "absolute return",
+    "Omega": "I * G",
+    "collapse_event": "(High - Low) / Close > q(0.95)",
+    "high_omega": "Omega > q(0.99)",
+    "event_independent_of_omega": true,
+    "temporal_shift": "labels.shift(+rows), shifted-null rows excluded",
+    "shuffled_labels_runs": 100
+  },
+  "original": {
+    "condition": "original",
+    "n_rows": 710,
+    "total_event_count": 36,
+    "baseline_p_collapse": 0.05070422535211268,
+    "n_high": 8,
+    "n_event_high": 7,
+    "p_collapse_given_high_omega": 0.875,
+    "ratio": 17.256944444444443,
+    "q_event_0.95": 0.07337343979783484,
+    "q_omega_0.99": 0.002550863535200483
+  },
+  "temporal_shifts": [
+    {
+      "condition": "temporal_shift_+30",
+      "shift": 30,
+      "n_rows": 680,
+      "total_event_count": 36,
+      "baseline_p_collapse": 0.052941176470588235,
+      "n_high": 8,
+      "n_event_high": 0,
+      "p_collapse_given_high_omega": 0.0,
+      "ratio": 0.0,
+      "dropped_rows_from_shift": 30
+    },
+    {
+      "condition": "temporal_shift_+60",
+      "shift": 60,
+      "n_rows": 650,
+      "total_event_count": 36,
+      "baseline_p_collapse": 0.055384615384615386,
+      "n_high": 7,
+      "n_event_high": 1,
+      "p_collapse_given_high_omega": 0.14285714285714285,
+      "ratio": 2.579365079365079,
+      "dropped_rows_from_shift": 60
+    },
+    {
+      "condition": "temporal_shift_+120",
+      "shift": 120,
+      "n_rows": 590,
+      "total_event_count": 30,
+      "baseline_p_collapse": 0.05084745762711865,
+      "n_high": 6,
+      "n_event_high": 0,
+      "p_collapse_given_high_omega": 0.0,
+      "ratio": 0.0,
+      "dropped_rows_from_shift": 120
+    }
+  ],
+  "shuffled_summary": {
+    "runs": 100,
+    "seed_base": 20260525,
+    "mean_p_collapse_given_high_omega": 0.0525,
+    "median_p_collapse_given_high_omega": 0.0,
+    "min_p_collapse_given_high_omega": 0.0,
+    "max_p_collapse_given_high_omega": 0.5,
+    "mean_ratio": 1.0354166666666667,
+    "median_ratio": 0.0,
+    "min_ratio": 0.0,
+    "max_ratio": 9.86111111111111,
+    "mean_n_event_high": 0.42,
+    "min_n_event_high": 0,
+    "max_n_event_high": 4
+  },
+  "outputs": {
+    "original_csv": "results\\btc_source_consistent_v1_original_2026-05-25.csv",
+    "temporal_shifts_csv": "results\\btc_source_consistent_v1_temporal_shifts_2026-05-25.csv",
+    "shuffled_runs_csv": "results\\btc_source_consistent_v1_shuffled_runs_2026-05-25.csv",
+    "summary_json": "results\\btc_source_consistent_v1_summary_2026-05-25.json"
+  }
+}

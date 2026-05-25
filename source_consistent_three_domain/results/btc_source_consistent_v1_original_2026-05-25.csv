@@ -1,0 +1,2 @@
+condition,n_rows,total_event_count,baseline_p_collapse,n_high,n_event_high,p_collapse_given_high_omega,ratio,q_event_0.95,q_omega_0.99
+original,710,36,0.05070422535211268,8,7,0.875,17.256944444444443,0.07337343979783484,0.002550863535200483

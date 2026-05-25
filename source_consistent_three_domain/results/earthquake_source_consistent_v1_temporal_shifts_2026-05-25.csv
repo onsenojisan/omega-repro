@@ -1,0 +1,4 @@
+domain,condition,shift,run,seed,n_rows,total_event_count,baseline,q_omega_0.99,n_high,n_event_high,p_collapse_given_high_omega,ratio
+Earthquake Japan,circular_shift_+30,30,,,4062,99,0.024372230428360415,0.8501531315554205,41,0,0.0,0.0
+Earthquake Japan,circular_shift_+60,60,,,4062,99,0.024372230428360415,0.8501531315554205,41,0,0.0,0.0
+Earthquake Japan,circular_shift_+120,120,,,4062,99,0.024372230428360415,0.8501531315554205,41,0,0.0,0.0

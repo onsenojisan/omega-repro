@@ -1,0 +1,4 @@
+condition,shift,n_rows,total_event_count,baseline_p_collapse,n_high,n_event_high,p_collapse_given_high_omega,ratio,dropped_rows_from_shift
+temporal_shift_+30,30,680,36,0.052941176470588235,8,0,0.0,0.0,30
+temporal_shift_+60,60,650,36,0.055384615384615386,7,1,0.14285714285714285,2.579365079365079,60
+temporal_shift_+120,120,590,30,0.05084745762711865,6,0,0.0,0.0,120

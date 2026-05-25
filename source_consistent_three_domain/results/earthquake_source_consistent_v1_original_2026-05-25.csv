@@ -1,0 +1,2 @@
+domain,condition,shift,run,seed,n_rows,total_event_count,baseline,q_omega_0.99,n_high,n_event_high,p_collapse_given_high_omega,ratio
+Earthquake Japan,original,,,,4062,99,0.024372230428360415,0.8501531315554205,41,6,0.14634146341463414,6.004434589800443
