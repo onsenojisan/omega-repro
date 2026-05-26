@@ -64,6 +64,7 @@
 - Not a prediction model.
 - Not a forecasting claim.
 - Not an earthquake early-warning method.
+- In statistical seismology, this earthquake result should be interpreted as a minimal concentration screening result, not as evidence that Ω adds information beyond ETAS / Hawkes-process conditional intensity models.
 - Not causal evidence.
 - No optimization / tuning.
 - Fixed ex-ante definitions.

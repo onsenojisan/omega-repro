@@ -23,6 +23,22 @@ These research areas are referenced as adjacent terminology, not as equivalents 
 | Conditional probability / state conditioning | Estimating probabilities or distributions conditional on state variables | Reporting Ω summaries under pre-defined states, windows, or event classes | Ω can be reported within state-conditioned analysis, but it is a measurement protocol rather than a probability model. |
 | Reproducibility / minimal protocols | Fixed definitions, auditable inputs, and repeatable procedures | Using a minimal CSV format, explicit definitions, and transparent null-result reporting | Ω is designed to support reproducible comparison, not to replace richer domain-specific methods. |
 
+## Statistical seismology / ETAS / point-process interpretation
+
+The earthquake Ω example should be interpreted as a minimal concentration screening test.
+
+It shows that, under fixed ex-ante definitions, independently defined future large-earthquake events are more concentrated in high-Ω states than under the unconditional baseline. This does not establish that Ω provides information beyond ETAS, Hawkes-process conditional intensity models, or other point-process forecasting frameworks.
+
+In statistical seismology, the stronger test is whether Ω adds reproducible incremental information beyond existing conditional intensity structures. Relevant comparison frameworks include:
+
+- conditional intensity modeling
+- covariate-dependent point processes
+- likelihood-based forecasting
+- information-gain analysis
+- prospective or pseudo-prospective forecast evaluation
+
+Therefore, the current earthquake result should be treated as a screening result, not as a claim of predictive superiority or independence from established ETAS / point-process models.
+
 ## Use With
 
 - Minimal CSV Template: https://zenodo.org/records/20309117

@@ -61,6 +61,7 @@ It is not a prediction model.
 It is not a trading strategy.
 It is not causal evidence.
 It is not an earthquake forecasting or early-warning method.
+In statistical seismology, this earthquake result should be interpreted as a minimal concentration screening result, not as evidence that Ω adds information beyond ETAS / Hawkes-process conditional intensity models.
 The results do not imply endorsement of the broader theory.
 Null results in future domains would remain valid under the protocol.
 
