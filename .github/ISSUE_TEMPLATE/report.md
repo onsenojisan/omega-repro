@@ -8,9 +8,17 @@ title: "[Report]"
 
 Domain:
 
-P(collapse | high Ω):
+P(event | high Ω):
 
-Baseline:
+Baseline P(event):
+
+Ratio:
+
+n_rows (if available):
+
+n_high (if available):
+
+n_event_high (if available):
 
 ---
 
@@ -18,14 +26,22 @@ Baseline:
 
 Data:
 
-Definition of collapse:
+Definition of event:
 
 Definition of Ω (I, G):
 
 High Ω threshold:
 
-P(collapse | high Ω):
+P(event | high Ω):
 
-Baseline P(collapse):
+Baseline P(event):
+
+Ratio:
+
+n_rows (if available):
+
+n_high (if available):
+
+n_event_high (if available):
 
 Notes (optional):

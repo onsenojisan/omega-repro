@@ -23,13 +23,10 @@ This repository tests whether independently defined binary events structurally c
 
 ## Reproduce the PJM example
 
-1. Download dataset  
+1. Open the reproducibility package:
 https://zenodo.org/records/19159664  
 
-2. Upload to Colab  
-
-3. Run  
-reproduce_omega_pjm.ipynb  
+2. Follow the package instructions in Colab or your local environment.
 
 ---
 
@@ -74,4 +71,4 @@ Report your result:
 https://github.com/onsenojisan/omega-repro/issues/new?template=report.md
 
 Report (minimal):
-domain / data / collapse definition / P(collapse | high Ω) / baseline
+Domain / P(event | high Ω) / baseline P(event) / ratio / n_rows if available / n_high if available / n_event_high if available
