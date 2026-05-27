@@ -6,19 +6,20 @@
 
 This repository supports reproducible Omega structural concentration tests.
 
-It is not a prediction, trading, optimization, or causal-inference framework. Do not reframe the repository, outputs, notebooks, reports, or documentation in those terms.
+It is not a prediction, trading performance, optimization, causal-inference, intervention, or endorsement framework. Do not reframe the repository, outputs, notebooks, reports, or documentation in those terms.
 
 ## 2. Reproducibility-First Policy
 
-- Preserve fixed ex-ante definitions.
-- Preserve event definitions that are independent from Omega measurements.
+- Treat Omega / Ω as the fixed minimal protocol vocabulary.
+- Preserve fixed ex-ante Omega definitions.
+- Preserve the independence between Omega / high Omega definitions and event definitions.
 - Report only:
   - `P(event | high Omega)`
   - baseline `P(event)`
   - ratio
-  - relevant counts
-- Do not add post-hoc tuning.
-- Do not optimize parameters to improve results.
+  - counts when available
+- Do not add post-hoc threshold optimization or tuning.
+- Do not optimize parameters or thresholds to improve results.
 - Treat null results as valid outcomes.
 
 ## 3. Structural Stability Policy
@@ -31,12 +32,14 @@ It is not a prediction, trading, optimization, or causal-inference framework. Do
 
 ## 4. Change Discipline
 
-- Do not change Omega definitions, thresholds, event definitions, domain specifications, or output semantics without explicit approval.
+- Do not change fixed Omega definitions, high Omega thresholds, event definitions, domain specifications, or output semantics without explicit approval.
 - Do not silently modify notebooks or reported metrics.
 - Do not introduce new empirical domains unless explicitly requested.
-- Do not convert the repository into a prediction, optimization, intervention, or trading framework.
+- Do not convert the repository into a prediction, trading performance, optimization, causality, intervention, or endorsement framework.
 - Prefer review documents before edits.
 - Prefer the smallest safe change.
+- Prefer minimal edits over broad rewriting.
+- If a conflict is found between requested edits and the fixed Omega minimal protocol, report the conflict before making broader edits.
 
 ## 5. Public-Facing Stability
 
@@ -45,6 +48,7 @@ It is not a prediction, trading, optimization, or causal-inference framework. Do
 - Preserve Zenodo reference consistency.
 - Preserve report-template accessibility.
 - Prefer minimal and stable public navigation.
+- When checking public-facing material, verify terminology, links, Markdown table integrity, Colab links, GitHub issue/reporting paths, and Zenodo references when relevant.
 
 ## 6. Agent Workflow
 
@@ -55,6 +59,7 @@ It is not a prediction, trading, optimization, or causal-inference framework. Do
   - no action
 - Explain any public-facing impact before modification.
 - Avoid unnecessary refactors.
+- Report the final diff and verification commands after edits.
 - Never commit or push unless explicitly instructed.
 
 ## 7. Prohibited Actions
