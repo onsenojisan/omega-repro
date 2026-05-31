@@ -36,4 +36,4 @@ Event definitions must be independent from Omega. Null, weak, sparse, unstable, 
 ## Inspected But Not Registered
 
 - PJM electricity reference example: the README and terminology document reference the Zenodo package and event definition, but this repository does not contain the fixed result metrics needed to populate the registry row without importing external values.
-- Minimal CSV template example: the repository contains `templates/omega_minimal_template/example_data.csv` and the Colab workflow, but no explicit completed result block is stored in the repository.
+- Minimal CSV template example: the repository now includes `templates/omega_minimal_template/example_result.md` as a smoke-test output for the bundled sample CSV. It remains outside the public result registry because it is a template mechanics check only, not empirical evidence or a public domain result.

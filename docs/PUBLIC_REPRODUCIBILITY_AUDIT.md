@@ -33,7 +33,7 @@ Local reruns require Python with `numpy` and `pandas`. The source-consistent scr
 ## Inspected But Not Public Registry Rows
 
 - PJM is referenced as an external reference example, but complete fixed registry metrics are not stored as repository-local result artifacts.
-- The minimal CSV template has a workflow and sample CSV, but no explicit completed result block is stored in the repository.
+- The minimal CSV template now includes `templates/omega_minimal_template/example_result.md` as a smoke-test output for the bundled sample CSV. It remains outside the public result registry because it is a template mechanics check only, not empirical evidence or a public domain result.
 
 ## Interpretation
 
