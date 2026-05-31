@@ -2,9 +2,9 @@
 
 [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/onsenojisan/omega-repro/blob/main/templates/omega_minimal_template/omega_minimal_template.ipynb)
 
-This is a tiny Google Colab template for testing whether independently defined binary events concentrate in high-Ω states.
+This is a historical V1 executable comparison illustrating `P(event | high Ω)` versus baseline `P(event)`. It is not a validation tool for Ω. Meaningful future use requires an independently defined event label, frozen definitions, and anti-circularity checks.
 
-It is a structural concentration test, not a prediction model. Ω is computed only from the selected value column:
+It is a structural concentration comparison, not a prediction model. Ω is computed only from the selected value column:
 
 - `I = rolling standard deviation(value, window=20)`
 - `G = absolute first difference(value)`
@@ -12,7 +12,7 @@ It is a structural concentration test, not a prediction model. Ω is computed on
 
 The event or collapse column must be defined independently from Ω. Do not tune the threshold, window, or event definition after seeing the result.
 
-Null results are valid. A ratio near 1 means the event did not concentrate in high-Ω states under this simple test.
+Null results are valid. A ratio near 1 means the event did not concentrate in high-Ω states under this simple historical V1 comparison. A high ratio alone is not evidence.
 
 ## Colab-Ready Usage
 

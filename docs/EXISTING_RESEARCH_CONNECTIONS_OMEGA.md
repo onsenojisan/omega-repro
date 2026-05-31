@@ -4,7 +4,9 @@ This document is a terminology bridge and positioning guide, not a literature re
 
 This note describes how the minimal Ω structural concentration framework can be named alongside existing research language. It is not a theory paper and does not claim that Ω subsumes, explains, or replaces existing research fields.
 
-Ω evaluates whether pre-defined structural concentration measures change around independently defined collapse or event states. It evaluates structural concentration, not timing prediction. It does not establish causality, and null results are valid outcomes.
+Historical V1 Ω materials evaluate whether pre-defined structural concentration measures change around independently defined collapse or event states. They evaluate structural concentration, not timing prediction. They do not establish causality, validate Ω, or turn high ratios into evidence by themselves, and null results are valid outcomes.
+
+Boundary note: The earlier Ω-centered empirical layer should not be treated as current validation. Existing V1 materials remain historical, fixed, and Ω-centered. High ratio alone is not evidence. Future empirical claims require independent event labels, frozen definitions, anti-circularity review, sufficient support counts, and validation design before evaluation.
 
 All definitions should be fixed ex-ante. Collapse or event definitions must be independent from Ω measurements so that the protocol does not define the target state using the same quantity it later evaluates.
 
@@ -21,13 +23,13 @@ These research areas are referenced as adjacent terminology, not as equivalents 
 | Early warning signals | Indicators that may precede a transition or failure | Describing ex-ante concentration behavior before independently defined events without claiming predictive performance | Ω may be reported alongside warning indicators, but it is not itself a warning signal or prediction model. |
 | Stress regimes | Periods of elevated strain, instability, or disruption | Evaluating concentration under pre-defined stress and non-stress states | Ω depends on external stress definitions and does not validate the stress label causally. |
 | Conditional probability / state conditioning | Estimating probabilities or distributions conditional on state variables | Reporting Ω summaries under pre-defined states, windows, or event classes | Ω can be reported within state-conditioned analysis, but it is a measurement protocol rather than a probability model. |
-| Reproducibility / minimal protocols | Fixed definitions, auditable inputs, and repeatable procedures | Using a minimal CSV format, explicit definitions, and transparent null-result reporting | Ω is designed to support reproducible comparison, not to replace richer domain-specific methods. |
+| Reproducibility / minimal protocols | Fixed definitions, auditable inputs, and repeatable procedures | Using a minimal CSV format, explicit definitions, and transparent null-result reporting | Historical V1 Ω materials are designed to support reproducible comparison, not to replace richer domain-specific methods. |
 
 ## Statistical seismology / ETAS / point-process interpretation
 
-The earthquake Ω example should be interpreted as a minimal concentration screening test.
+The earthquake Ω example should be interpreted as a historical V1 minimal concentration screening example.
 
-It shows that, under fixed ex-ante definitions, independently defined future large-earthquake events are more concentrated in high-Ω states than under the unconditional baseline. This does not establish that Ω provides information beyond ETAS, Hawkes-process conditional intensity models, or other point-process forecasting frameworks.
+It reported that, under fixed ex-ante definitions, independently defined future large-earthquake events were more concentrated in high-Ω states than under the unconditional baseline. This reported V1 result is not current validation and does not establish that Ω provides information beyond ETAS, Hawkes-process conditional intensity models, or other point-process forecasting frameworks.
 
 In statistical seismology, the stronger test is whether Ω adds reproducible incremental information beyond existing conditional intensity structures. Relevant comparison frameworks include:
 
@@ -37,7 +39,7 @@ In statistical seismology, the stronger test is whether Ω adds reproducible inc
 - information-gain analysis
 - prospective or pseudo-prospective forecast evaluation
 
-Therefore, the current earthquake result should be treated as a screening result, not as a claim of predictive superiority or independence from established ETAS / point-process models.
+Therefore, the earthquake result should be treated as a historical V1 screening result, not as current validation, predictive superiority, or independence from established ETAS / point-process models.
 
 ## Use With
 

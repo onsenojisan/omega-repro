@@ -2,7 +2,9 @@
 
 [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/onsenojisan/omega-repro/blob/main/templates/omega_minimal_template/omega_minimal_template.ipynb)
 
-This repository is a general CSV-based reproducibility testbench for structural concentration tests. It checks whether an independently defined binary event is more frequent in high-Ω rows than in the full baseline, using fixed definitions chosen before looking at results. It is not prediction, classification, trading, optimization, or causal inference.
+This repository preserves the historical V1 CSV-based reproducibility testbench for structural concentration comparisons. It checks whether an independently defined binary event is more frequent in high-Ω rows than in the full baseline, using fixed definitions chosen before looking at results. It is not prediction, classification, trading, optimization, causal inference, or current validation of Ω.
+
+Boundary note: The earlier Ω-centered empirical layer should not be treated as current validation. Existing V1 materials remain historical, fixed, and Ω-centered. High ratio alone is not evidence. Future empirical claims require independent event labels, frozen definitions, anti-circularity review, sufficient support counts, and validation design before evaluation.
 
 Execution hub:  
 https://onsenojisan.github.io/omega-library/
@@ -13,7 +15,7 @@ The core comparison is:
 
 `P(event | high Ω)` versus `baseline P(event)`
 
-The binary event definition must be independent from Ω. Event thresholds, high-Ω thresholds, and inclusion rules should be fixed ex ante. Null results are valid reproducibility outcomes.
+The binary event definition must be independent from Ω. Event thresholds, high-Ω thresholds, and inclusion rules should be fixed ex ante. Null results are valid reproducibility outcomes. High ratio alone should not be treated as evidence.
 
 ## Fastest runnable entry
 
@@ -25,7 +27,7 @@ No local setup is required for the Colab path.
 
 ## Try the testbench on your own data
 
-Use the [minimal template](templates/omega_minimal_template/) with a CSV containing a numeric value column and an independently defined binary event column. The included example uses: time, value, event. Replace the sample file with your own data, keep definitions fixed, and report either concentration or a null result.
+Use the [minimal template](templates/omega_minimal_template/) as a historical V1 executable comparison with a CSV containing a numeric value column and an independently defined binary event column. The included example uses: time, value, event. Replace the sample file with your own data, keep definitions fixed, and report either concentration or a null result. This template is not a validation tool for Ω.
 
 Links: [notebook](templates/omega_minimal_template/omega_minimal_template.ipynb) / [example_data.csv](templates/omega_minimal_template/example_data.csv)
 
@@ -48,7 +50,7 @@ This PJM example is a reference case for the testbench, not the scope limit of t
 
 `Ω = I × G`
 
-This repository provides a reproducible implementation of the structural concentration check around Ω. It does not claim to forecast events, assign class labels, recommend trades, optimize decisions, or establish causality.
+This repository provides a reproducible implementation of the historical V1 structural concentration check around Ω. It does not claim to forecast events, assign class labels, recommend trades, optimize decisions, establish causality, or validate Ω.
 
 ## Reference materials
 
