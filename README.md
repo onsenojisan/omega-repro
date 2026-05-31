@@ -58,6 +58,8 @@ https://zenodo.org/records/20107274
 Existing research terminology guide:  
 [docs/EXISTING_RESEARCH_CONNECTIONS_OMEGA.md](docs/EXISTING_RESEARCH_CONNECTIONS_OMEGA.md)
 
+Public result registry: [results/public_result_registry.md](results/public_result_registry.md)
+
 ## Report a result
 
 Report your result:  
