@@ -25,6 +25,29 @@ Event definitions must be independent from Ω. Null, weak, sparse, unstable, or 
 | zero values | retain observed zero-precipitation days |
 | missing values | block the future run and document the issue; do not impute after inspection |
 
+## Required Future Source Intake Workflow
+
+A future task must create the fixed source artifact through a dedicated source intake step before any Omega calculation, event evaluation, result generation, registry review, or public-facing summary.
+
+The intake step must not change the fixed location, source, time range, value variable, units, event definition, Omega definition, high-Omega threshold, or timing rule after seeing data.
+
+The fixed source CSV must use this schema:
+
+| Column | Required meaning |
+| --- | --- |
+| `date` | UTC calendar date returned by the archive source |
+| `precipitation_sum` | daily precipitation total in millimeters |
+
+The source intake note must record:
+
+* source URL or API query
+* retrieval timestamp
+* source artifact path
+* SHA256 hash of the fixed CSV
+* date range
+* location
+* units
+
 ## Fixed Omega And Event Definitions
 
 | Component | Fixed definition |
@@ -48,8 +71,8 @@ These paths are required only if a future task explicitly approves source-consis
 | fixed source artifact | `source_consistent_three_domain/data/weather_london_open_meteo_precipitation_2015-01-01_2024-12-31.csv` |
 | source intake note | `source_consistent_three_domain/docs/source_intake/WEATHER_LONDON_OPEN_METEO_INTAKE.md` |
 | rerun script | `source_consistent_three_domain/scripts/weather_london_source_consistent_v1_rerun.py` |
-| original result CSV | `source_consistent_three_domain/results/weather_london_source_consistent_v1_original.csv` |
-| summary result JSON | `source_consistent_three_domain/results/weather_london_source_consistent_v1_summary.json` |
+| original result CSV | `source_consistent_three_domain/results/weather_london_precip_source_consistent_v1_results_YYYY-MM-DD.csv` |
+| summary result JSON | `source_consistent_three_domain/results/weather_london_precip_source_consistent_v1_summary_YYYY-MM-DD.json` |
 | control or caveat note | `source_consistent_three_domain/docs/control/WEATHER_LONDON_SOURCE_CONSISTENT_V1_RERUN.md` |
 
 ## Required Future Output Fields
@@ -68,6 +91,7 @@ Any future result must report:
 * baseline `P(event)`
 * ratio, when defined
 * `n_rows`
+* `n_event_total`
 * `n_high`
 * `n_event_high`
 * reliability or caveat flag
@@ -75,6 +99,10 @@ Any future result must report:
 * output artifact path
 
 Sparse, weak, null, unstable, or near-baseline outcomes are valid outcomes and must remain visible in any future note or registry review.
+
+## Dependency Note
+
+Future execution will require Python with `pandas` and `numpy`.
 
 ## Required Future Rerun Command
 
