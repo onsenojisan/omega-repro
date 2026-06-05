@@ -1,6 +1,6 @@
 # Open Structural Concentration Testbench
 
-> **Restart status:** The current VOT / The Pleasure Order restart status is summarized in [`RESTART.md`](https://github.com/onsenojisan/vot-theory-stack/blob/master/RESTART.md). Earlier Omega empirical and reproducibility materials should be read as historical, methodological, or exploratory unless explicitly reauthorized. This repository is not the current project center and should not be read as current validation of Omega.
+> **Restart status:** The current VOT / The Pleasure Order restart status is summarized in [`RESTART_STATUS.md`](https://github.com/onsenojisan/vot-the-pleasure-order/blob/main/RESTART_STATUS.md). Earlier Omega empirical and reproducibility materials should be read as historical, methodological, or exploratory unless explicitly reauthorized. This repository is not the current project center and should not be read as current validation of Omega.
 
 [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/onsenojisan/omega-repro/blob/main/templates/omega_minimal_template/omega_minimal_template.ipynb)
 
