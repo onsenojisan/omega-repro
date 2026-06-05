@@ -1,5 +1,7 @@
 # Open Structural Concentration Testbench
 
+> **Restart status:** The current VOT / The Pleasure Order restart status is summarized in [`RESTART.md`](https://github.com/onsenojisan/vot-theory-stack/blob/master/RESTART.md). Earlier Omega empirical and reproducibility materials should be read as historical, methodological, or exploratory unless explicitly reauthorized. This repository is not the current project center and should not be read as current validation of Omega.
+
 [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/onsenojisan/omega-repro/blob/main/templates/omega_minimal_template/omega_minimal_template.ipynb)
 
 This repository preserves the historical V1 CSV-based reproducibility testbench for structural concentration comparisons. It checks whether an independently defined binary event is more frequent in high-Ω rows than in the full baseline, using fixed definitions chosen before looking at results. It is not prediction, classification, trading, optimization, causal inference, or current validation of Ω.
